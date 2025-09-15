@@ -1,0 +1,39 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    --color-border-form: #CCCCCC;
+    --color-border-price: #dddddd;
+    --color-border-bnt: #1f4db0;
+
+    --color-text: #4a5164;
+
+    --color-blue: #3167db;
+    --color-hover: #1c47a3;
+    --color-gray-blue: #6477a4;
+    --color-dark-blue: #1f2430;
+
+    --border: var(--border-wigth-s) solid var(--color-border-bnt);
+
+    --border-width-l: 4px;
+    --border-wigth-m: 3px;
+    --border-wigth-s: 1px;
+
+    --border-radius-l: 12px;
+    --border-radius-m: 10px;
+    --border-radius-s: 8px;
+    --border-radius-xs: 6px;
+    --border-radius-xxs: 5px;
+    --border-radius-xxxs: 4px;
+
+    --font-family-base: 'Ubuntu', sans-serif;
+    --font-family-icons: 'fontello-contacts';
+
+    --container-width: #{fluid-to-laptop($container-desktop-width, $container-laptop-width)};
+    --container-padding-x: 15px;
+
+    --section-padding-y: #{fluid(90, 72)};
+
+    --transition-duration: 0.2s;
+    --transition-duration-longer: 0.4s;
+}

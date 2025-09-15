@@ -1,0 +1,56 @@
+.field {
+    display: flex;
+    flex-direction: column;
+
+    &__label {
+        font-size: 14px;
+    }
+
+    &__required-star {
+        color: var(--color-blue);
+    }
+
+    &__body {
+        display: flex;
+        column-gap: 16px;
+        width: 100%;
+    }
+
+    &__control {
+        width: 100%;
+        height: 39px;
+        padding: 6px 12px;
+        font-size: 18px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        background-image: none;
+        border: 0 none;
+        border-bottom: 1px solid #ccc;
+        box-shadow: none;
+
+        &:user-invalid {
+            color: red;
+            border-color: red;
+        }
+    }
+
+
+
+    &:disabled {
+        @include disabled;
+    }
+
+    &::placeholder {
+        color: var(--color-border-form);
+    }
+
+    textarea.field__control {
+        resize: vertical;
+        min-height: 143px;
+        border: 1px solid #ccc;
+
+        &:user-invalid {
+            border-color: red;
+        }
+    }
+}

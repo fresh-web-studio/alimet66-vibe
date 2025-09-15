@@ -1,0 +1,38 @@
+.services-card {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    width: 47%;
+
+    @include tablet {
+        justify-content: center;
+        width: 80%;
+    }
+
+    &:hover {
+        filter: brightness(115%);
+    }
+
+    &__body {
+        color: var(--color-white);
+        position: absolute;
+        bottom: 0;
+        background: rgba(31, 36, 48, .9);
+        padding: fluid(48, 15);
+        width: 100%;
+
+        @include mobile {
+            height: auto;
+        }
+
+        &-title {
+            font-size: fluid(25, 19);
+            color: var(--color-white);
+            margin-bottom: fluid(18, 5);
+        }
+
+        &-description {
+            font-size: fluid(18, 11);
+        }
+    }
+}

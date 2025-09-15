@@ -1,0 +1,30 @@
+.edge-card {
+    width: 100%;
+    gap: 30px;
+    padding: 0 15px;
+    align-items: center;
+
+    &__number {
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fluid(100, 80);
+        height: fluid(100, 80);
+        border-radius: 50%;
+        background-color: var(--color-blue);
+        color: var(--color-white);
+        aspect-ratio: 1;
+    }
+
+    &__title {
+        color: var(--color-white);
+        display: flex;
+        align-items: center;
+        width: 80%;
+
+        @include mobile {
+            width: 70%;
+        }
+    }
+}

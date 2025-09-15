@@ -1,12 +1,26 @@
-import { Head } from "minista"
+import Hero from '@/sections/Hero'
+import Services from '@/sections/Services'
 
-export default function () {
+import Edge from '@/sections/Edge'
+import Order from '@/sections/Order'
+import Request from '@/sections/Request'
+import About from '@/sections/About'
+import Seo from '@/sections/Seo'
+
+export const metadata = {
+  title: '',
+}
+
+export default () => {
   return (
     <>
-      <Head>
-        <title>Hello!</title>
-      </Head>
-      <h1>Hello!</h1>
+      <Hero />
+      <Services />
+      <Order />
+      <Request />
+      <Edge />
+      <About />
+      <Seo />
     </>
   )
 }

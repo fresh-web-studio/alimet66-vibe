@@ -1,0 +1,25 @@
+.seo {
+    background: url("/src/assets/images/services/bg-section.jpg") 50%/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 140px 15px;
+    }
+
+    &__title {
+        color: var(--color-white);
+        font-size: fluid(30, 19);
+        line-height: 1.1;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        color: var(--color-white);
+        font-size: fluid(20, 16);
+        line-height: 1.4;
+    }
+}

@@ -1,0 +1,17 @@
+.edge {
+    background-color: var(--color-dark-blue);
+    box-shadow: 300px 0 0 #1f2430, 600px 0 0 #1f2430, 1100px 0 0 #1f2430, 2200px 0 0 #1f2430, 3300px 0 0 #1f2430, -300px 0 0 #1f2430, -600px 0 0 #1f2430, -1100px 0 0 #1f2430, -2200px 0 0 #1f2430, -3300px 0 0 #1f2430;
+    padding-top: 90px;
+    padding-bottom: 110px;
+
+    &__title {
+        font-size: fluid(80, 30);
+        color: var(--color-white);
+        margin-bottom: fluid(50, 32);
+    }
+
+    &-card {
+        display: flex;
+        justify-content: space-between;
+    }
+}

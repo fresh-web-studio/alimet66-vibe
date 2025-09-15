@@ -1,0 +1,35 @@
+.request {
+    background: url("/src/assets/images/services/bg-section.jpg") 50%/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    //    padding-top: 110px;
+    //  padding-bottom: 120px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 140px 70px;
+    }
+
+    &__inf {
+        color: var(--color-dark-blue);
+        font-size: fluid(45, 28);
+        text-transform: uppercase;
+        line-height: 1.1;
+    }
+
+    &__title {
+        font-size: fluid(80, 30);
+        color: var(--color-white);
+        line-height: 1;
+    }
+
+    &__text {
+        color: var(--color-white);
+        font-size: fluid(40, 19);
+        line-height: 1.4;
+        text-transform: uppercase;
+    }
+}

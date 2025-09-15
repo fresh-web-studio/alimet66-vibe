@@ -1,0 +1,28 @@
+.button {
+    @include flex-center(true);
+    padding: fluid-to-laptop(22, 19) fluid-to-laptop(34, 22);
+    font-weight: 700;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
+    border: 1px solid transparent;
+    user-select: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: max-content;
+
+    @include hover {
+        color: var(--color-white);
+        background-color: var(--color-hover);
+    }
+
+    &:active {
+        scale: 1.05;
+    }
+
+    &:disabled {
+        color: var(--color-gray-blue);
+        background-color: var(--color-dark-blue);
+        pointer-events: none;
+    }
+}

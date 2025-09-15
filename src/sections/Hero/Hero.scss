@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    min-height: 44vw;
+    width: 100%;
+
+    @include mobile {
+        min-height: 320px;
+    }
+
+    &__pano {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+        flex-grow: 1;
+        background: url('../../assets/images/hero/bg.jpg') 50%/cover;
+        background-repeat: no-repeat;
+
+        &-inner {
+            @include laptop-above {
+                max-width: 70vw;
+            }
+
+            &-title {
+                font-size: fluid(80, 24);
+                font-weight: 700;
+                text-transform: uppercase;
+                color: var(--color-white);
+            }
+
+            &-subtitle {
+                font-size: fluid(36, 16);
+                font-weight: 700;
+                text-transform: uppercase;
+                color: var(--color-white);
+                margin-bottom: fluid(18, 6);
+            }
+
+            &-body {
+                font-size: fluid(24, 14);
+                color: var(--color-white);
+                margin-bottom: fluid(30, 16);
+            }
+        }
+    }
+
+    &__button {
+        text-transform: uppercase;
+    }
+}

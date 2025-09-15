@@ -1,0 +1,29 @@
+.fit-back__dialog[open] {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000ba;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+
+    .fit-back {
+        padding: 40px 45px;
+        background: var(--color-white);
+
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__close {
+            cursor: pointer;
+        }
+    }
+}
