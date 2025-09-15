@@ -30,7 +30,7 @@ h5,
 .h5,
 h6,
 .h6 {
-    color: var(--color-blue);
+    color: var(--color-base);
     text-transform: uppercase;
 }
 
@@ -75,7 +75,7 @@ svg * {
 }
 
 a {
-    color: --color-blue;
+    color: --color-base;
     text-decoration: none;
 
     @include hover {

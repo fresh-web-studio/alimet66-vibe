@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="footer__inner container">
                 <div className="footer__extra">
                     <p className="footer__copyright">
-                        © OOO «Компания Металлпром», <time datatime="2017-2025">2017-2025</time>. <a className="footer__extra-links" href="/security">Политика информационной безопасности</a>
+                        © OOO «Компания Алимет», <time datatime="2017-2025">2017-2025</time>. <a className="footer__extra-links" href="/security">Политика информационной безопасности</a>
                     </p>
                 </div>
             </div>
