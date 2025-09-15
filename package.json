@@ -3,16 +3,25 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "minista",
-    "build": "minista build",
-    "preview": "minista preview"
+    "start": "cross-env NODE_ENV=development minista",
+    "build": "cross-env NODE_ENV=production minista build",
+    "preview": "cross-env NODE_ENV=production minista preview"
   },
   "prettier": {
     "semi": false
   },
   "devDependencies": {
+    "cross-env": "^10.0.0",
     "minista": "^3.1.12",
+    "postcss-pxtorem": "^6.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.81.0"
+  },
+  "dependencies": {
+    "@a1rth/css-normalize": "^1.1.9",
+    "classnames": "^2.5.1",
+    "imask": "^7.6.1",
+    "swiper": "^11.1.15"
   }
 }
