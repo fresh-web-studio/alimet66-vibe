@@ -10,24 +10,24 @@ const Footer = () => {
         {
             title: 'Адреса',
             icon: iconLocation,
-            links: ['Нижний Тагил', 'ул. Краснознаменная, 55'],
+            links: ['Екатеринбург', 'Шефская улица, 115'],
         },
         {
             title: 'Телефоны',
             icon: iconPhone,
-            links: ['+7 (912) 229-09-85', '+7 (912) 030-85-08'],
-            href: ['tel:%2B7%28912%29229-09-85', 'tel:%2B7%28912%29030-85-08'],
+            links: ['+7 (901) 856‒33‒42'],
+            href: ['tel:%2B7%28901%29856-33-42'],
         },
         {
             title: 'Работаем',
             icon: iconTime,
-            links: ['Без выходных 9:00 - 19:00'],
+            links: ['Без выходных 9:00 - 20:00'],
         },
         {
             title: 'E-mail',
             icon: iconMail,
-            links: ['mail@mp66.ru'],
-            href: ['mailto:mail@mp66.ru'],
+            links: ['alimet66@mail.ru'],
+            href: ['mailto:alimet66@mail.ru'],
         },
     ]
 

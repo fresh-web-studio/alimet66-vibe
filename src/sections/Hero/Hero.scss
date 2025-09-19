@@ -27,6 +27,10 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 color: var(--color-white);
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6),
+                    0 0 1em rgba(0, 0, 0, 0.04),
+                    0 0 0.2em rgba(0, 0, 0, 0.67);
+
             }
 
             &-subtitle {
@@ -35,12 +39,18 @@
                 text-transform: uppercase;
                 color: var(--color-white);
                 margin-bottom: fluid(18, 6);
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6),
+                    0 0 1em rgba(0, 0, 0, 0.04),
+                    0 0 0.2em rgba(0, 0, 0, 0.67);
             }
 
             &-body {
                 font-size: fluid(24, 14);
                 color: var(--color-white);
                 margin-bottom: fluid(30, 16);
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6),
+                    0 0 1em rgba(0, 0, 0, 0.04),
+                    0 0 0.2em rgba(0, 0, 0, 0.67);
             }
         }
     }
