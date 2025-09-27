@@ -6,3 +6,5 @@ node_modules
 dist
 /public/edit/
 /public/PHPmailer/
+dist/edit
+dist/PHPmailer
