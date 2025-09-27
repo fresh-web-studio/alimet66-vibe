@@ -19,7 +19,7 @@ export default function (props) {
     return (
         <body data-js-modal-more="">
             <Head htmlAttributes={{ lang: 'ru' }}>
-                <title>{title}МеталлПром: прием металлолома, лом черных и цветных металлов в Нижнем Тагиле и Свердловской области</title>
+                <title>{title}Алимет: прием металлолома, лом черных и цветных металлов в Екатеринбурге и Свердловской области</title>
                 <script src="/src/main.js" type='module' />
 
                 <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />

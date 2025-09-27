@@ -1,6 +1,6 @@
 .footer {
-    background-color: var(--color-dark-blue);
-    color: var(--color-gray-blue);
+    background-color: var(--color-dark-base);
+    color: var(--color-gray-base);
 
     .map {
         border: none;
@@ -48,7 +48,7 @@
         }
 
         &-item a {
-            color: var(--color-gray-blue);
+            color: var(--color-gray-base);
 
             &:hover {
                 color: var(--color-white);
@@ -62,7 +62,7 @@
         @include fluid-text(20, 14);
 
         a {
-            color: var(--color-gray-blue);
+            color: var(--color-gray-base);
 
             &:hover {
                 color: var(--color-white);

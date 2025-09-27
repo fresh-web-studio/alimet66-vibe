@@ -1,6 +1,6 @@
 .edge {
-    background-color: var(--color-dark-blue);
-    box-shadow: 300px 0 0 #1f2430, 600px 0 0 #1f2430, 1100px 0 0 #1f2430, 2200px 0 0 #1f2430, 3300px 0 0 #1f2430, -300px 0 0 #1f2430, -600px 0 0 #1f2430, -1100px 0 0 #1f2430, -2200px 0 0 #1f2430, -3300px 0 0 #1f2430;
+    background-color: var(--color-dark-base);
+    box-shadow: 300px 0 0 var(--color-dark-base), 600px 0 0 var(--color-dark-base), 1100px 0 0 var(--color-dark-base), 2200px 0 0 var(--color-dark-base), 3300px 0 0 var(--color-dark-base), -300px 0 0 var(--color-dark-base), -600px 0 0 var(--color-dark-base), -1100px 0 0 var(--color-dark-base), -2200px 0 0 var(--color-dark-base), -3300px 0 0 var(--color-dark-base);
     padding-top: 90px;
     padding-bottom: 110px;
 

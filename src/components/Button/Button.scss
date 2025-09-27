@@ -3,8 +3,8 @@
     padding: fluid-to-laptop(22, 19) fluid-to-laptop(34, 22);
     font-weight: 700;
     color: var(--color-white);
-    background-color: var(--color-blue);
-    border-color: var(--color-blue);
+    background-color: var(--color-base);
+    border-color: var(--color-base);
     border: 1px solid transparent;
     user-select: none;
     cursor: pointer;
@@ -21,8 +21,8 @@
     }
 
     &:disabled {
-        color: var(--color-gray-blue);
-        background-color: var(--color-dark-blue);
+        color: var(--color-gray-base);
+        background-color: var(--color-dark-base);
         pointer-events: none;
     }
 }

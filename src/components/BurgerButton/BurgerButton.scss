@@ -7,7 +7,7 @@
     border-color: transparent;
 
     @include hover {
-        background-color: var(--color-blue);
+        background-color: var(--color-base);
     }
 
     &.is-active {
@@ -31,7 +31,7 @@
 
     &__line {
         fill: none;
-        stroke: var(--color-blue);
+        stroke: var(--color-base);
         stroke-width: 6;
         stroke-linecap: round;
         stroke-dasharray: 60 207;

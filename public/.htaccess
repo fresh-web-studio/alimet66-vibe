@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+# Правила для чистой структуры URL (одиночные и вложенные страницы)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*[^/])/?$ $1.html [L,QSA]
+
+# Общие правила для Vite (перенаправление на index.html)
+RewriteCond %{REQUEST_URI} !^/(index\.html)?$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /index.html [QSA,L]

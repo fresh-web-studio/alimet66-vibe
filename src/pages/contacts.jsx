@@ -36,15 +36,16 @@ export default () => {
             <div className="container non-home-page">
                 <h1>Контакты</h1>
                 <div className="contacts">
-                    <div className="contacts__city">Нижний Тагил</div>
+                    <div className="contacts__city">Екатеринбург</div>
                     <div>ул.Краснознаменная, 55</div>
-                    <div className="contacts__time">без выходных 9:00 - 19:00</div>
-                    <div className="contacts__tel">+7 (912) 229-09-85, +7 (912) 030-85-08</div>
-                    <div className="contacts__mail">mail@mp66.ru</div>
+                    <div className="contacts__time">без выходных 9:00 - 20:00</div>
+                    <div className="contacts__tel">+7 (901) 856‒33‒42</div>
+                    <div className="contacts__mail">alimet66@mail.ru</div>
                 </div>
                 <div className="map">
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab28648cd7fde7627c53afec8d1d2ba035bf186325485620926a30e419cbc382f&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A517746b822e8fcd7cbcbb3042a1776598b5eda50af2dda09206098058f174f48&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
                 </div>
+                {/*
                 <div className="fit-back">
                     <h2 className="fit-back__title">Обратная связь</h2>
                     <div className="map"></div>
@@ -102,7 +103,7 @@ export default () => {
                         />
                     </form>
                 </div>
-
+*/}
             </div>
 
         </>

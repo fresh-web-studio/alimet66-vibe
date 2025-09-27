@@ -61,9 +61,9 @@ const Header = (props) => {
         <header className="header" data-js-overlay-menu="">
             <div className="header__contacts">
                 <div className="container">
-                    <div className="hidden-mobile header__city">Нижний Тагил, ул. Краснознаменная, 55</div>
-                    <div className="header__tel"><a href="tel:%2B7%28912%29229-09-85">+7 (912) 229-09-85</a>, <a href="tel:%2B7%28912%29030-85-08">+7 (912) 030-85-08</a></div>
-                    <div className="hidden-tablet hidden-mobile header__time">без выходных 9:00 - 19:00</div>
+                    <div className="hidden-mobile header__city">Екатеринбург, Шефская улица, 115</div>
+                    <div className="header__tel"><a href="tel:%2B7%28901%29856‒33‒42">+7 (901) 856‒33‒42</a></div>
+                    <div className="hidden-tablet hidden-mobile header__time">без выходных 9:00 - 20:00</div>
                 </div>
             </div>
             <div className="header__inner">

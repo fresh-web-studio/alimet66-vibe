@@ -4,10 +4,10 @@
     column-gap: fluid-to-laptop(10, 8);
 
     @include hover {
-        color: var(--color-blue);
+        color: var(--color-base);
 
         .checkbox__input {
-            border-color: var(--color-blue);
+            border-color: var(--color-base);
         }
     }
 
@@ -47,7 +47,7 @@
 
         &::after {
             content: '✓';
-            color: var(--color-blue);
+            color: var(--color-base);
             transition-duration: inherit;
         }
     }

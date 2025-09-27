@@ -151,13 +151,11 @@ export default defineConfig({
   vite: {
     plugins: [
       sitemap({
-        hostname: 'https://mp66.ru', // Замените на ваш домен
+        hostname: 'https://alimet66.ru', // Замените на ваш домен
         ignoredFiles: ['/thank-you.html'], // Игнорируемые страницы
         routes: getPages(), // Получаем список страниц автоматически
+        outDir: 'public', // Указываем папку public для вывода файлов
       }),
     ],
-    build: {
-      emptyOutDir: false, // Не очищать папку dist перед сборкой
-    },
   },
 });

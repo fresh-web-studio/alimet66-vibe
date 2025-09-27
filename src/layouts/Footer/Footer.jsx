@@ -10,24 +10,24 @@ const Footer = () => {
         {
             title: 'Адреса',
             icon: iconLocation,
-            links: ['Нижний Тагил', 'ул. Краснознаменная, 55'],
+            links: ['Екатеринбург', 'Шефская улица, 115'],
         },
         {
             title: 'Телефоны',
             icon: iconPhone,
-            links: ['+7 (912) 229-09-85', '+7 (912) 030-85-08'],
-            href: ['tel:%2B7%28912%29229-09-85', 'tel:%2B7%28912%29030-85-08'],
+            links: ['+7 (901) 856‒33‒42'],
+            href: ['tel:%2B7%28901%29856-33-42'],
         },
         {
             title: 'Работаем',
             icon: iconTime,
-            links: ['Без выходных 9:00 - 19:00'],
+            links: ['Без выходных 9:00 - 20:00'],
         },
         {
             title: 'E-mail',
             icon: iconMail,
-            links: ['mail@mp66.ru'],
-            href: ['mailto:mail@mp66.ru'],
+            links: ['alimet66@mail.ru'],
+            href: ['mailto:alimet66@mail.ru'],
         },
     ]
 
@@ -61,17 +61,19 @@ const Footer = () => {
             </div>
 
             <div className="map" style={{ display: 'none' }}>
-                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab28648cd7fde7627c53afec8d1d2ba035bf186325485620926a30e419cbc382f&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A517746b822e8fcd7cbcbb3042a1776598b5eda50af2dda09206098058f174f48&amp;source=constructor" width="100%" height="480" frameborder="0"></iframe>
             </div>
 
             <div className="footer__inner container">
                 <div className="footer__extra">
                     <p className="footer__copyright">
-                        © OOO «Компания Металлпром», <time datatime="2017-2025">2017-2025</time>. <a className="footer__extra-links" href="/security">Политика информационной безопасности</a>
+                        © OOO «Компания Алимет», <time datatime="2017-2025">2017-2025</time>. <a className="footer__extra-links" href="/security">Политика информационной безопасности</a>
                     </p>
                 </div>
             </div>
+            {/*
             <Modal />
+            */}
         </footer>
 
     )
